@@ -52,6 +52,7 @@ p {
 	background-color: transparent;
 	border: 2px solid crimson;
 	font-size: 2rem;
+	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	margin-top: 30px;
@@ -62,6 +63,12 @@ p {
 	color: white;
 	background-color: crimson;
 }
+
+.contact-links {
+    display: flex;
+    gap: 20px; /* Adjust the spacing as needed */
+}
+
 .brand h1 {
 	font-size: 2rem;
 	text-transform: uppercase;
