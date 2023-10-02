@@ -940,6 +940,23 @@ body, h1, h2, h3, p {
 #projects .section-title span {
 	color: crimson;
 }
+
+/* Define a custom class for the link */
+#projects .custom-link {
+	text-decoration: none; /* Remove underlines from the link */
+	color: #007BFF; /* Change the text color */
+	font-weight: bold; /* Make the text bold */
+	font-size: 16px; /* Adjust the font size */
+	border: 2px solid #007BFF; /* Add a 2px solid border with the link color */
+	padding: 5px 10px; /* Add padding to create space around the text */
+	border-radius: 5px; /* Add rounded corners */
+}
+  
+  /* Style the link on hover */
+#projects .custom-link:hover {
+	color: #0056b3; /* Change the text color on hover */
+  }
+
 /* --------------------   End of Project section ------------------------- */
 
 
