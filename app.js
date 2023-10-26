@@ -26,11 +26,14 @@ menu_item.forEach((item) => {
 
 // ------------------------------------------------  //
 
+
 let experienceSlideIndex = 1;
 let educationSlideIndex = 1;
+let projectSlideIndex = 1;
 
 showSlides(experienceSlideIndex, 'experience');
 showSlides(educationSlideIndex, 'education');
+showSlides(projectSlideIndex, 'project');
 
 function plusSlides(n, section) {
   if (section === 'experience') {
@@ -38,6 +41,9 @@ function plusSlides(n, section) {
   }
   if (section === 'education') {
     showSlides(educationSlideIndex += n, 'education');
+  }
+  if (section === 'project') {
+    showSlides(educationSlideIndex += n, 'project');
   }
 }
 
@@ -47,6 +53,9 @@ function currentSlide(n, section) {
   }
   if (section === 'education') {
     showSlides(educationSlideIndex = n, 'education');
+  }
+  if (section === 'project') {
+    showSlides(educationSlideIndex = n, 'project');
   }
 }
 
@@ -74,8 +83,11 @@ function showSlides(n, section) {
     experienceSlideIndex = n;
   } else if (section === 'education') {
     educationSlideIndex = n;
+  }  else if (section === 'project') {
+    educationSlideIndex = n;
   }
 }
+
 
 // ------------------------------------------------------- //
 
