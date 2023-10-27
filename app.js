@@ -43,7 +43,7 @@ function plusSlides(n, section) {
     showSlides(educationSlideIndex += n, 'education');
   }
   if (section === 'project') {
-    showSlides(educationSlideIndex += n, 'project');
+    showSlides(projectSlideIndex += n, 'project');
   }
 }
 
@@ -55,7 +55,7 @@ function currentSlide(n, section) {
     showSlides(educationSlideIndex = n, 'education');
   }
   if (section === 'project') {
-    showSlides(educationSlideIndex = n, 'project');
+    showSlides(projectSlideIndex = n, 'project');
   }
 }
 
@@ -84,7 +84,7 @@ function showSlides(n, section) {
   } else if (section === 'education') {
     educationSlideIndex = n;
   }  else if (section === 'project') {
-    educationSlideIndex = n;
+    projectSlideIndex = n;
   }
 }
 
